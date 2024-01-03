@@ -1,0 +1,67 @@
+{"members": [
+    {
+        "name": "Dirt Gear Co.",
+        "address": "5353 W 11000 N, Highland",
+        "phone": "(801) 763-8044",
+        "website": "https://dirtgearco.com/",
+        "image": "images/dgcologo.webp",
+        "membership": "Gold",
+        "spotlight":"images/dgco.webp"
+    },
+    {
+        "name": "Painted Daisy Floral",
+        "address": "5435 W 11000 N Ste 15 Highland",
+        "phone": "(801) 763-8721",
+        "website": "https://www.painteddaisyflorist.com/",
+        "image": "images/painteddaisy.webp",
+        "membership": "Gold",
+        "spotlight": "images/floralspotlight.webp"
+
+
+    },
+    {
+        "name": "Courage Reins",
+        "address": "5870 W 10400 N, Ste. C. Highland",
+        "phone": "(801) 756-8900",
+        "website": "https://couragereins.org/",
+        "image": "images/couragereins.webp",
+        "membership": "Non-Profit",
+        "spotlight": "images/couragereins.webp"
+    },
+    {
+        "name": "North Pointe Dental LLC",
+        "address": "10290 N County Blvd Ste 101 Highland",
+        "phone": "801-805-1931 ",
+        "website": "https://www.northpointe.dental/",
+        "image": "images/dental.webp",
+        "membership": "Silver",
+        "spotlight": "images/dental.webp"
+    },
+    {
+        "name": "Twirl Boutique",
+        "address": "UT-92, Highland",
+        "phone": "(385) 498-3426",
+        "website": "https://shoptwirlco.com/",
+        "image": "images/twirl.webp",
+        "membership": "Gold",
+        "spotlight": "images/twirlspotlight.webp"
+    },
+    {
+        "name": "Rad Swimwear, LLC",
+        "address": "5509 W 11000 N Highland",
+        "phone": "(801) 803-3520",
+        "website": "https://radswim.com/",
+        "image": "images/RAD.webp",
+        "membership": "Bronze",
+        "spotlight": "images/RAD.webp"
+    },
+    {
+        "name": "Meires Meats and Fine Foods",
+        "address": "5521 UT-92 #133, Highland",
+        "phone": "(801) 642-2069",
+        "website": "https://www.meiersmeats.com/",
+        "image": "images/meiers.webp",
+        "membership": "Gold",
+        "spotlight": "images/meiersspotlight.webp"
+    }
+]}

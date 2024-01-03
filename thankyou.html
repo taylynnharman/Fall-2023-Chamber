@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="TayLynn Harman">
+    <meta name="description" content="Highland City Chamber of Commerce - Join Page">
+    <meta property="og:url"
+        content="https://github.com/taylynnharman/wdd230/tree/0a32c081dece68b5ecc324aec8c19ab7a031a241/chamber">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Highland City Chamber of Commerce - Join Page">
+    <meta property="og:image" content="https://extension.usu.edu/efnep/images/utah-valley.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/medium.css">
+    <link rel="stylesheet" type="text/css" href="styles/larger.css">
+    <link rel="icon" href="images/fav.ico">
+    <title>Highland City Chamber of Commerce - Join Page</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img id="logo" src="images/hcc.webp" alt="Highland City Chamber of Commerce logo">
+        </a>
+        <div id="weather">
+            <img id="weather-icon" src="" alt="">
+            <span id="headtemp"></span>
+        </div>
+        <div class="toggle">
+            <label class="switch">
+                <input type="checkbox" id="mode">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <button id="menu"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html" target="_blank">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <main class="thankyou">
+            <h1 class="confirmation">Thank you for joining the Highland City Chamber of Commerce!
+                A confirmation email will be sent shortly.</h1>
+    </div>
+    </main>
+    <footer>
+        <div id="contacts">(801) 796 - 2510 | contact@highlandchamber.com | 5400 W. Civic Center Drive Highland
+            City, UT
+            84003</div>
+
+        <div class="socials">
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+            <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+        </div>
+        <div id="copy">
+            <p>
+                &copy;
+                <span id="currentYear"></span>
+                TayLynn Harman | Created as a project for WDD230
+            </p>
+
+            <p id="lastModified"></p>
+        </div>
+        </div>
+    </footer>
+    <script src="scripts/visits.js"></script>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/responsivemenu.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/weather.js"></script>
+</body>
+
+</html>

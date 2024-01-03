@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="TayLynn Harman">
+    <meta name="description" content="Highland City Chamber of Commerce - Discover">
+    <meta property="og:url"
+        content="https://github.com/taylynnharman/wdd230/tree/0a32c081dece68b5ecc324aec8c19ab7a031a241/chamber">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Highland City Chamber of Commerce Homepage">
+    <meta property="og:image" content="https://extension.usu.edu/efnep/images/utah-valley.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/medium.css">
+    <link rel="stylesheet" type="text/css" href="styles/larger.css">
+    <link rel="icon" href="images/fav.ico">
+    <title>Highland City Chamber of Commerce - Discover</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img id="logo" src="images/hcc.webp" alt="Highland City Chamber of Commerce logo">
+        </a>
+        <div id="weather">
+            <img id="weather-icon" src="" alt="Weather Icon">
+            <span id="headtemp"></span>
+        </div>
+        <div class="toggle">
+            <label class="switch">
+                <input type="checkbox" id="mode">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <button id="menu"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html" target="_blank">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="dis-main">
+        <h1 class="dis-welcome">Events and City Info</h1>
+        <section class="page-visits">
+            <p>
+                <span id="visits"></span>
+            </p>
+        </section>
+        <section class="dcard">
+            <h3>Information:</h3>
+            <p>
+                Mayor: Kurt Ostler
+            </p>
+            <p>
+                Population Estimate (2019): 19,175
+            </p>
+            <p>Area: 8.64 mi²</p>
+
+        </section>
+        <section class="dcard">
+            <h3>Events</h3>
+            <div class="joinevents">
+                <div class="events">
+                    <h4>Hometown Holiday Tree Lighting- November 20th @ 6pm</h4>
+                    <img src="images/cocoa.jpg" alt="people drinking cocoa around fire">
+                    <p>Kick off the holidays with us at Heritage Park! Hot chocolate and doughnuts provided!</p>
+                </div>
+                <div class="events">
+                    <h4>Hometown Holiday Christmas Tree Scavenger Hunt- Nov. 27th- Dec. 18th</h4>
+                    <img src="images/festival.jpg" alt="Hall of Christmas Trees">
+                    <p>Pick up a scavenger hunt page from Highland City Hall and search the tree in the foyer for the
+                        answers! Winners will be drawn on December 19th.</p>
+                </div>
+                <div class="events">
+                    <h4>Hometown Holiday Santa at City Hall and Story Time with the Mayor- December 2nd @ 10am-12pm</h4>
+                    <img src="images/mayor.jpg" alt="Mayor reading children a story">
+                    <p>This is a great family Christmas tradition in Highland! The Mayor will read a beloved Christmas
+                        story. There will be crafts, hot chocolate and cookies, and a visit from a very special guest.
+                        Hear the Highland Children's Choir, and visit with Santa!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="dimg">
+            <h2>Local Attractions</h2>
+
+            <figure class="card-img">
+                <img loading="lazy" src="images/afcanyon.webp" alt="American Fork Canyon in the Fall">
+                <figcaption>American Fork Canyon</caption>
+            </figure>
+            <figure class="card-img">
+                <img loading="lazy" src="images/aquarium.webp" alt="Shark tank at Loveland Living Planet Aquarium">
+                <figcaption>Living Planet Aquarium</caption>
+            </figure>
+            <figure class="card-img">
+                <img loading="lazy" src="images/brighton.webp" alt="Brighton Ski Resort">
+                <figcaption>Brighton Ski Resort</caption>
+            </figure>
+            <figure class="card-img">
+                <img loading="lazy" src="images/highlandglen.webp" alt="Highland Glen Park">
+                <figcaption>Highland Glen</caption>
+            </figure>
+            <figure class="card-img">
+                <img loading="lazy" src="images/dinosaur.webp"
+                    alt="T-Rex Bones at the Dinosaur Museum at Thanksgiving Point">
+                <figcaption>Dinosaur Museum</caption>
+            </figure>
+            <figure class="card-img">
+                <img loading="lazy" src="images/timpcave.webp" alt="Timpanogos Cave">
+                <figcaption>Timpanogos Cave</caption>
+            </figure>
+            <figure class="card-img">
+                <img loading="lazy" src="images/tulip.webp" alt="Tulips at the Tulip Festival">
+                <figcaption>Tulip Festival</caption>
+            </figure>
+            <figure class="card-img">
+                <img loading="lazy" src="images/tgpoint.webp" alt="Aerial shot of Thanksgiving Point">
+                <figcaption>Thanksgiving Point</caption>
+            </figure>
+
+            <figure class="card-img">
+                <img loading="lazy" src="images/butterfly.webp" alt="Butterfly Biosphere">
+                <figcaption>Butterfly Biosphere</caption>
+            </figure>
+            <figure class="card-img">
+                <img loading="lazy" src="images/pgflag.webp" alt="USA flag over American Fork Canyon">
+                <figcaption>Big Betsy</caption>
+            </figure>
+        </section>
+
+
+    </main>
+    <footer>
+        <div id="contacts">(801) 796 - 2510 | contact@highlandchamber.com | 5400 W. Civic Center Drive Highland City, UT
+            84003</div>
+
+        <div class="socials">
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+            <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+        </div>
+        <div id="copy">
+            <p>
+                &copy;
+                <span id="currentYear"></span>
+                TayLynn Harman | Created as a project for WDD230
+            </p>
+
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="../scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/visits.js"></script>
+    <script src="scripts/active.js"></script>
+</body>
+
+</html>

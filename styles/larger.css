@@ -1,0 +1,158 @@
+@media screen and (min-width: 600px) {
+    body {
+        max-width: 1600px;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 100px auto auto 90px;
+    }
+
+    ul .navigation {
+        grid-column: 1 / 4;
+    }
+
+    .navigation a {
+        font-weight: bold;
+        text-align: center;
+        text-align: center;
+        color: var(--text-color);
+    }
+
+    .button {
+        top: 70%;
+    }
+
+    .navigation li {
+        display: none;
+        max-width: 145px;
+    }
+
+    nav {
+        grid-column: 2 / 3;
+        grid-row: 1;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #welcome {
+        left: 40%;
+        transform: translate(-30%, -30%);
+        font-size: 2vw;
+    }
+
+    .weather {
+        width: auto;
+    }
+
+    #weather {
+        display: flex;
+        padding-inline: 30px;
+        grid-column: 3 / 4;
+    }
+
+    #forecast {
+        gap: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .grid-toggle {
+        margin-inline: 500px
+    }
+
+    .toggle {
+        grid-column: 4 / 5;
+        text-align: left;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    #hero img {
+        max-width: 1600px;
+        width: 100%;
+        height: auto;
+    }
+
+    .carousel {
+        height: 500px;
+    }
+
+    #events {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 40px;
+        margin-inline: 40px;
+    }
+
+    .button {
+        padding: 2% 5%;
+        font-size: 2vw;
+        top: 70%;
+        left: 15%;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 50px;
+        padding: 20px;
+        font-size: 10pt;
+    }
+
+    .socials {
+        display: flex;
+        grid-column: 5/6;
+        justify-content: right;
+        align-items: center;
+    }
+
+    /* Discover css */
+    .dis-main {
+        display: grid;
+        grid-template-columns: 400px 1fr;
+    }
+
+    section:nth-child(4) {
+        grid-column: 1/2;
+        grid-row: 4/8;
+    }
+
+    .card-img img:hover {
+        box-shadow: 0 0 50px #acacac;
+    }
+
+    .dimg {
+        grid-row: 1/10;
+    }
+
+    /* Join CSS */
+    main.join {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-inline: 9rem;
+        gap: 40px;
+    }
+
+    #cards section {
+        display: grid;
+        grid-template-rows: 40px 200px 30px 30px 30px;
+        place-items: center;
+    }
+
+    #cards.list section {
+        display: grid;
+        grid-template-columns: 4fr 4fr auto 3fr 1fr;
+        grid-template-rows: auto;
+    }
+}
